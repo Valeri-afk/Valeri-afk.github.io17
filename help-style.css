@@ -1,0 +1,131 @@
+.prm-header {
+    background: url('../img/header.jpg') center no-repeat;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    height: 520px;
+    text-align: center;
+}
+
+.prm-header h1 {
+    margin: 0;
+    padding: 0 0 5px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 45px;
+    line-height: 48px;
+    color: white;
+    /*color: black;*/
+    /*font-family:'Graphik_LC', sans-serif !important;*/
+    font-weight: 600;
+}
+
+.prm-header .prm-cat {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    padding-top: 5px;
+    color: white;
+    /*color: black;*/
+    padding-bottom: 100px;
+}
+
+.prm-text p {
+    line-height: 26px;
+}
+
+.prm-text li {
+    padding-left: 14px;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+}
+
+.prm-text li:before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #000000;
+    position: absolute;
+    left: 0;
+    top: 9px;
+}
+
+.prm-text li:before {
+    top: 10px !important;
+    width: 6px !important;
+    height: 6px !important;
+
+}
+
+.green-text {
+    color: #76bc21;
+}
+
+.red-text {
+    color: #c10230;
+}
+
+.prm-review .prm-wrp a:not(.prm-item-card):not(.prm-help-footer-item-link) {
+    background-image: linear-gradient(#02557f, #02557f);
+    color: #02557f;
+}
+
+.prm-text a:not(.prm-image) {
+    padding-bottom: 2px;
+}
+
+.prm-text-med {
+    font-weight: 500;
+}
+
+.prm-m-0-auto {
+    margin: 0 auto;
+}
+
+.prm-help-bg-text {
+    padding: 0 35px 0 40px;
+}
+
+@media (max-width: 1240px) {
+    .prm-help-bg-text {
+        padding: 15px 35px 15px 40px;
+    }
+}
+
+@media (max-width: 999px) {
+    .prm-help-bg-text {
+        padding: 30px 15px 40px;
+    }
+
+    .prm-header {
+        text-align: left;
+    }
+
+    .prm-header .prm-cat {
+        padding-bottom: 40px !important;
+    }
+
+    .prm-header .prm-wrp {
+        border-bottom: 2px solid #bdbdbd
+    }
+
+    .prm-header .prm-wrp h1 br {
+        display: none !important;
+    }
+
+    .prm-header-new .prm-text-center {
+        text-align: left !important;
+    }
+
+    .prm-header .prm-wrp .green-text {
+        color: #76bc21 !important;
+    }
+
+    .prm-header .prm-wrp .red-text {
+        color: #c10230 !important;
+    }
+}
